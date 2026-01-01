@@ -1,0 +1,71 @@
+   .header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      color: white;
+      background-color:#d2dbea;
+      top:0;
+      left:0;
+      position: fixed;
+      width: 100;
+     padding: 15px 30px;
+     color: white;
+     position: sticky;
+  
+    }
+    .nav {
+           display: flex;
+           gap: 20px;
+         }
+    
+
+
+    footer{
+      color:black;
+      background: #f2f2f2;
+    }
+
+
+    footer{
+  background-color: #333;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  font-size: 12px;
+  margin-top: auto;
+  border-top: 1px solid #999;
+  }
+
+
+
+
+
+
+
+
+
+   <!-- Header -->
+   <div class="header">
+    <img src="logo.png" alt="Logo" width="60px" align="center">
+    <h1>My Shop</h1>
+    <div class="nav">
+      <a href="client.php">Home </a>
+      <a href="about.php">About </a>
+       <a href="#">DELIVERY</a>
+       <a href="#">LOCATIONS</a>
+       <a href="#">CONTACT</a>
+       <i class="icon cart">🛒<span class="cart-count">0</span></i>
+     
+    </div>
+  </div>
+     <!-- End Header --><footer>
+  &copy; 2025 KJ General Store. All rights reserved.
+  <br>Contact NO:8220459201<br>
+  Email :kjgeneral002@gmail.com
+  <br>
+  KJ General Store  
+  Shop No. 12, Shree Krishna Complex  
+  Near Kalavad Road, Mavdi Area  
+  Rajkot, Gujarat - 360004  
+  India  
+</footer>
