@@ -8,7 +8,7 @@ if (!$con) {
 }
 
 // Fetch records from login table
-$sql = "SELECT id, name, email, phone FROM new_user";
+$sql = "SELECT id, name, email, phone FROM login";
 $result = mysqli_query($con, $sql);
 ?>
 
@@ -108,3 +108,4 @@ $result = mysqli_query($con, $sql);
 </html>
 
 <?php mysqli_close($con); ?>
+
